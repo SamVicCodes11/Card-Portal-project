@@ -76,13 +76,9 @@ const App = () => {
 
           <Route path="/request-details" element={<RequestDetails />} />
 
-          {/* <Route path="/card-details" element={<h4>Card Details</h4>} /> */}
+        
         </Route>
-        {/* <Route index element={<Home />} /> */}
 
-        {/* <Route path="/cardrequest" element={<CardRequest />} /> */}
-
-        {/* <Route path="/createprofile" element={<CreateProfile />} /> */}
       </Routes>
     </Router>
   );
@@ -90,49 +86,5 @@ const App = () => {
 
 export default App;
 
-// import React from "react";
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import Sidebar from "./components/Sidebar";
-// import Dashboard from "./pages/Dashboard";
-// import Branches from "./pages/Branches";
-// import Roles from "./pages/Roles";
-// import Users from "./pages/Users";
-// import CardScheme from "./pages/CardScheme";
-// import CardProfile from "./pages/CardProfile";
-// import CardRequestPage from "./pages/CardRequestPage";
-// import Stock from "./pages/Stock";
-// import Cards from "./pages/Cards";
-// import AuthorizationList from "./pages/AuthorizationList";
-// import AuthorizationQueue from "./pages/AuthorizationQueue";
-// import Trail from "./pages/Trail";
-// import Account from "./pages/Account";
-// import "./App.css";
 
-// function App() {
-//   return (
-//     <Router>
-//       <div className="app-container" style={{ display: "flex" }}>
-//         <Sidebar />
-//         <div className="content" style={{ padding: "2rem", flex: 1 }}>
-//           <Routes>
-//             <Route path="/" element={<Dashboard />} />
-//             <Route path="/branches" element={<Branches />} />
-//             <Route path="/roles" element={<Roles />} />
-//             <Route path="/users" element={<Users />} />
-//             <Route path="/card-scheme" element={<CardScheme />} />
-//             <Route path="/card-profile" element={<CardProfile />} />
-//             <Route path="/card-request" element={<CardRequestPage />} />
-//             <Route path="/stock" element={<Stock />} />
-//             <Route path="/cards" element={<Cards />} />
-//             <Route path="/authorization-list" element={<AuthorizationList />} />
-//             <Route path="/authorization-queue" element={<AuthorizationQueue />} />
-//             <Route path="/trail" element={<Trail />} />
-//             <Route path="/account" element={<Account />} />
-//           </Routes>
-//         </div>
-//       </div>
-//     </Router>
-//   );
-// }
 
-// export default App;

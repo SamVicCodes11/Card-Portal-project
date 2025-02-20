@@ -1,7 +1,7 @@
 import React from "react";
 import AppSidebar from "./AppSidebar";
 import {Outlet} from "react-router-dom";
-import AppHeader from "./AppHeader";
+// import AppHeader from "./AppHeader";
 
 
 const AppLayout = () => {
@@ -10,7 +10,7 @@ const AppLayout = () => {
       <AppSidebar />
 
       <div className="app_layout_wider">
-       <AppHeader/>
+       {/* <AppHeader/> */}
         <div className="app_layout_main">
           <Outlet/>
         </div>
